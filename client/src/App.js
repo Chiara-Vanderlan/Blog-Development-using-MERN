@@ -4,7 +4,7 @@ import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import ArtiicleList from './pages/ArtiicleList';
+import ArticleList from './pages/ArticleList';
 import Article from './pages/Article';
 import Navbar from './components/Navbar';
 
@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path ="/" element={<Home/>}/>
         <Route path ="/about" element={<About/>}/>
-        <Route path ="/articles-list" element={<ArtiicleList/>}/>
-        <Route path ="/article" element={<Article/>}/>
+        <Route path ="/articles-list" element={<ArticleList/>}/>
+        <Route path ="/article/:name" element={<Article/>}/>
       </Routes>
      
     </div>
