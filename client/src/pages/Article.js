@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import articleContent from "./article-content"
 
-//Pages
+//Not found Page
 import NotFound from "./Notfound";
 
 //Component 
