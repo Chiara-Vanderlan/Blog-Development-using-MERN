@@ -1,0 +1,19 @@
+{
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "description": "Mern app to learn fullstack development ",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "keywords": [],
+  "author": "Tech Academy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
