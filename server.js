@@ -18,6 +18,13 @@ const MONGO_URI = "mongodb+srv://chvanderlan99:et6IgJmxvGtT48vp@articleinfo.qhua
     },
 };*/
 
+//Fetch API
+/*fetch('api/articles/...',{
+    method : 'POST',
+    body
+})*/
+
+
 // Initialize middleware
 app.use(express.json());
 
